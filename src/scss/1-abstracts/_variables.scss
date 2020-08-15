@@ -1,0 +1,31 @@
+/*         ******* Mixins & Pages Width ********         */
+
+$smartphone-width: 500px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+$wrap-width: 1024px;
+$header-height: 50px;
+$footer-height: 150px;
+
+$root-font-size: 65.2%;
+
+/*         ******* website Palette ********         */
+
+$color-primary: #93bf34;
+$color-secondary: #688c32;
+$color-tertiary: #6a7a51;
+$color-success: #2bff00;
+$color-danger: #f60000;
+$color-warning: #fff177;
+$color-info: #77f;
+$color-light: #999;
+$color-dark: #000;
+$color-white: #fff;
+
+/*         ******* website fonts ********         */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;700;900&display=swap");
+
+$font-primary: "Roboto", sans-serif;
+$font-secondary: "Open Sans", sans-serif;

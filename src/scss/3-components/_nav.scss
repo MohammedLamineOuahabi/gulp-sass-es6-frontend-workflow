@@ -1,0 +1,27 @@
+.nav {
+  background-color: $color-white;
+  height: 100%;
+  float: right;
+
+  &__item {
+    color: $color-primary;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-decoration: none;
+    line-height: $header-height; //trick to center text
+    &:not(:last-child) {
+      padding-right: 2rem;
+    }
+
+    &:hover {
+      color: $color-success;
+      border-bottom: $color-white solid 2px;
+    }
+  }
+  &__logo {
+    width: 10rem;
+    height: 100%;
+    background-color: aqua;
+    line-height: $header-height;
+  }
+}

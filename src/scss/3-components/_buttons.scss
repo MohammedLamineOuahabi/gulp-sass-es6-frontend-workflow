@@ -1,0 +1,15 @@
+.btn {
+  background-color: $color-secondary;
+  color: $color-white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 40px;
+  border-radius: 5%;
+  display: inline-block; //not like inline we can set width & height and don't break the line like block
+  transition-delay: 0.1s;
+}
+.btn:hover {
+  background-color: $color-primary;
+}

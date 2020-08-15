@@ -1,0 +1,10 @@
+.container {
+  @include wrapper;
+  display: grid;
+  grid-template-rows: $header-height auto $footer-height;
+
+  .header .section-hero .footer {
+    height: 100%;
+    width: 100%;
+  }
+}
